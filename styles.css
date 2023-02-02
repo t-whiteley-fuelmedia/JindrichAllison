@@ -1,0 +1,144 @@
+/* General */
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: black;
+}
+
+.container-fluid {
+    padding: 2% 10%;
+}
+
+h1 {
+    padding-top: 10%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+}
+
+h2 {
+    color: white;
+}
+
+h6 {
+    color: rgb(160, 160, 160);
+    font-weight: 700;
+}
+
+p {
+    color: rgb(160, 160, 160);
+}
+
+hr {
+    background-color: black;
+    opacity: 1;
+    border: 0 none;
+    padding-top: 5px;
+}
+
+.btn-gold {
+    background-color: #F0A500;
+    color: black;
+    border: 0 none;
+}
+
+.side-pic {
+    width: 100%;
+}
+
+.white {
+    background-color: white;
+}
+
+#bottom-border {
+    padding: 0.1% 10%;
+    background: hsla(41, 100%, 47%, 1);
+    background: linear-gradient(90deg, hsla(41, 100%, 47%, 1) 0%, hsla(34, 100%, 41%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(41, 100%, 47%, 1) 0%, hsla(34, 100%, 41%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(41, 100%, 47%, 1) 0%, hsla(34, 100%, 41%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F0A500", endColorstr="#CF7500", GradientType=1 );
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: black;
+}
+
+.navbar-custom-container {
+    padding: 0 10%;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: #F0A500;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #F0A500;
+}
+
+
+/* Cover */
+#cover {
+    /* background-color: grey; */
+    background-image: url(pics/oil-rig-sunset.avif);
+    background-position: 00px -200px;
+    height: 100vh;
+}
+
+.btn-dark {
+    background-color: black;
+}
+
+
+/* Contact */
+#contact {
+    background-color: rgb(20, 20, 20);
+}
+
+.form-control {
+    background-color: rgb(40, 40, 40);
+    border: 0 none;
+    color: white;
+}
+
+.form-control::placeholder {
+    color: rgb(160, 160, 160);
+}
+
+
+/* Investor */
+#investor {
+    padding: 2% 10%;
+}
+
+.gold-hover:hover {
+    background-color: #F0A500;
+}
+
+
+/* Footer */
+#footer {
+    padding: 1% 10%;
+    background-color: rgb(20, 20, 20);
+}
+
+.link-secondary {
+    font-size: 15px;
+}
+
+.footer-hr {
+    padding-top: 2px;
+    background-color: rgb(40, 40, 40);
+}
+
+.footer-endnotes {
+    font-size: 15px;
+}
